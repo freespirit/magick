@@ -44,3 +44,11 @@ services:
     command:
       - --name=app
       - --playground
+
+  nod_dev_env:
+    build: .
+    container_name: node-docker
+    ports:
+      - 8080:3000
+    volumes:
+      - ./:/app

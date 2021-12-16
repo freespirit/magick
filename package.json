@@ -1,7 +1,7 @@
 {
-  "name": "magick",
-  "version": "1.0.0",
-  "description": "None",
+  "name": "rmrkxplr",
+  "version": "0.1.0",
+  "description": "A simple RMRK explorer for Gitcoin GR12",
   "type": "module",
   "main": "dist/index.js",
   "scripts": {
@@ -10,20 +10,19 @@
     "test": "jest",
     "codegen": "./node_modules/.bin/subql codegen"
   },
-  "homepage": "https://github.com/subquery/subql-starter",
-  "repository": "github:subquery/subql-starter",
+  "homepage": "https://github.com/freespirit/rmrkxplr_derived",
+  "repository": "github:freespirit/rmrkxplr_derived",
   "files": [
     "dist",
     "schema.graphql",
     "project.yaml"
   ],
-  "author": "vikiival",
+  "author": "stano",
   "license": "MIT",
   "devDependencies": {
     "@polkadot/api": "^6.9.2",
-    "@subql/cli": "latest",
+    "@subql/cli": "^0.16.0",
     "@subql/types": "latest",
     "typescript": "^4.5.2"
-  },
-  "dependencies": {}
+  }
 }
